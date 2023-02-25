@@ -4,19 +4,19 @@
 
 Le projet consiste en la création d'une application basée sur une architecture de micro-services pour gérer les factures contenant des produits appartenant à un client. Les micro-services développés dans le projet sont :
 
-# Customer-Service : micro-service permettant de gérer les clients de l'application.
+### Customer-Service : micro-service permettant de gérer les clients de l'application.
 
-# Inventory-Service : micro-service permettant de gérer les produits de l'application.
+### Inventory-Service : micro-service permettant de gérer les produits de l'application.
 
-# Gateway-Service : micro-service de passerelle qui gère le routage des requêtes entre les différents micro-services de l'application.
+### Gateway-Service : micro-service de passerelle qui gère le routage des requêtes entre les différents micro-services de l'application.
 
-# Eureka-Discovery : micro-service de découverte qui permet aux micro-services de s'enregistrer et de découvrir les autres micro-services.
+### Eureka-Discovery : micro-service de découverte qui permet aux micro-services de s'enregistrer et de découvrir les autres micro-services.
 
-# Authentication-Service : micro-service de sécurité qui gère l'authentification et l'autorisation des utilisateurs de l'application.
+### Authentication-Service : micro-service de sécurité qui gère l'authentification et l'autorisation des utilisateurs de l'application.
 
-# Billing-Service : micro-service qui utilise OpenFeign pour consommer les API REST des autres micro-services et générer des factures.
+### Billing-Service : micro-service qui utilise OpenFeign pour consommer les API REST des autres micro-services et générer des factures.
 
-# Data-Analytics-Service : micro-service qui utilise l'API Kafka Streams pour effectuer du traitement en temps réel sur les données de facturation.
+### Data-Analytics-Service : micro-service qui utilise l'API Kafka Streams pour effectuer du traitement en temps réel sur les données de facturation.
 
 En plus des micro-services, le projet comprend également un client Web Angular qui fournit une interface utilisateur pour interagir avec les micro-services. La sécurité est assurée en utilisant l'adaptateur Keycloak pour sécuriser les micro-services et l'interface utilisateur.
 
